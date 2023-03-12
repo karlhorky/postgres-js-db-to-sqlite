@@ -37,6 +37,6 @@ jobs:
           python-version: '3.10'
           cache: 'pip'
       - name: Install Python dependencies
-        run: pip install 'db-to-sqlite[postgresql]'
+        run: pip install -r requirements.txt
       - run: db-to-sqlite "postgresql://demo:demo@localhost/demo" database.db --all
       - run: ls -l database.db

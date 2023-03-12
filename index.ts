@@ -1,6 +1,6 @@
 import postgres from 'postgres';
 
-const sql = postgres({ host: '127.0.0.1' });
+const sql = postgres('postgres://demo:demo@localhost:5432/demo');
 
 await sql`
   CREATE TABLE IF NOT EXISTS customers (

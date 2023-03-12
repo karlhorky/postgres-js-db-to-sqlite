@@ -17,3 +17,5 @@ await sql`
 `;
 
 console.log(await sql`SELECT * FROM customers`);
+
+await sql.end();

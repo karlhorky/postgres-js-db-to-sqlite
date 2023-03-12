@@ -1,3 +1,3 @@
 # `postgres-js-db-to-sqlite`
 
-> Read from an SQLite database from Postgres.js, via sqld
+> Export PostgreSQL data inserted by Postgres.js to SQLite
